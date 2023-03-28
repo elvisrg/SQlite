@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#90EE90"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/Titulo"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:background="#32CD32"
+        android:textColor="#FFFFFF"
+        android:gravity="center">
+
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#32CD32"
+        android:layout_margin="15dp"
+        android:layout_marginTop="100dp">
+
+
+
+        <TextView
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="28sp"
+            android:text="Almacenando información con SharedPreference "
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#32CD32"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:text="@string/txtCedula"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="100dp">
+
+
+        <EditText
+            android:id="@+id/etcedula"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#32CD32"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:text="@string/txtnombre"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="100dp">
+
+
+        <EditText
+            android:id="@+id/etnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/btnguardar"
+            android:textSize="30dp"
+            android:backgroundTint="#9932CC">
+
+    </Button>
+</LinearLayout>
+
+
+</LinearLayout>

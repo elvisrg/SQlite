@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SQlite</string>
+    <string name="Titulo">Bases de datos SQlite</string>
+    <string name="txtCedula">Ingrese la cedula:</string>
+    <string name="txtnombre">Ingrese su nombre:</string>
+    <string name="txtelefono">Ingrese su número de Telef:</string>
+
+</resources>
