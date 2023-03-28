@@ -4,5 +4,7 @@
     <string name="txtCedula">Ingrese la cedula:</string>
     <string name="txtnombre">Ingrese su nombre:</string>
     <string name="txtelefono">Ingrese su número de Telef:</string>
+    <string name="btnregistrar">Registrar</string>
+    <string name="btnconsultar">Consultar</string>
 
 </resources>

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#90EE90"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
@@ -57,10 +57,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="35sp"
+            android:textSize="25dp"
             android:text="@string/txtCedula"
             android:gravity="center"
             android:textColor="#000000"
+            android:layout_margin="1dp"
             android:layout_marginTop="10dp">
         </TextView>
     </LinearLayout>
@@ -77,7 +78,50 @@
             android:id="@+id/etcedula"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="2">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#32CD32"
+
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:text="@string/txtnombre"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_margin="1dp"
+            android:layout_marginTop="10dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="100dp">
+
+
+        <EditText
+            android:id="@+id/etnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="2"
+            >
 
         </EditText>
     </LinearLayout>
@@ -95,10 +139,11 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="35sp"
-            android:text="@string/txtnombre"
+            android:textSize="25dp"
+            android:text="@string/txtelefono"
             android:gravity="center"
             android:textColor="#000000"
+            android:layout_margin="1dp"
             android:layout_marginTop="10dp">
         </TextView>
     </LinearLayout>
@@ -112,28 +157,42 @@
 
 
         <EditText
-            android:id="@+id/etnombre"
+            android:id="@+id/etelefono"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_margin="1dp"
             android:layout_weight="2">
 
         </EditText>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="14dp">
 
         <Button
-            android:id="@+id/guardar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/btnregistrar"
+            android:textSize="25dp"
+            android:layout_margin="1dp"
+            android:backgroundTint="#000080">
 
-            android:text="@string/btnguardar"
-            android:textSize="30dp"
-            android:backgroundTint="#9932CC">
+        </Button>
 
-    </Button>
+        <Button
+            android:id="@+id/consultar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/btnconsultar"
+            android:textSize="24dp"
+            android:layout_margin="1dp"
+            android:backgroundTint="#000080">
+
+        </Button>
 </LinearLayout>
 
 
